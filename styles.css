@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'SUSE', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    background-color: whitesmoke;
+}
+
+.container{
+    width: 800px;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    border: 3px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.tab__box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.tab__button{
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    padding: 1rem;
+    cursor: pointer;
+    color: #AAAAAA;
+}
+
+.tab__button.active{
+    color: black;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+.content__box{
+    padding: 1.2rem;
+}
+
+.content{
+    display: none;
+}
+
+.content.active{
+    display: block;
+    background-color: black;
+    color:white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+p{
+    line-height: 1.5;
+}
