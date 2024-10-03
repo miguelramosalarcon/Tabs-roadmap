@@ -70,3 +70,33 @@ h2{
 p{
     line-height: 1.5;
 }
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 2rem;
+    }
+    
+    .tab__button {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .tab__box {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .tab__button {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+    .content__box {
+        padding: 1rem;
+    }
+}
