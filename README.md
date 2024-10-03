@@ -39,8 +39,8 @@ Diseño adaptado para cualquier tipo de pantalla del dispositivo:
 
 ### El proyecto se encuentra alojado en mi repositorio de GitHub:
 
-- [Pagina web](https://roadmap.sh/projects/simple-tabs)
+- [Pagina web](https://miguelramosalarcon.github.io/Tabs-roadmap)
 - [Codigo fuente]()
-- [Link](https://roadmap.sh/projects/Tabs-roadmap)
+- [Link](https://roadmap.sh/projects/simple-tabs)
 > [!IMPORTANT]
 > **“En medio de la dificultad reside la oportunidad."** No dejemos de practicar, esforcémonos por lo que nos apasiona.
